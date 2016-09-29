@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_description"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.demoapp.ezetaptestapp.ResultActivity">
+
+
+    <include
+        android:id="@+id/tool_bar"
+        layout="@layout/header_tool_bar" />
+
+
+    <LinearLayout
+        android:id="@+id/ln_layout_result"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tool_bar"
+        android:orientation="vertical" />
+
+
+</RelativeLayout>
